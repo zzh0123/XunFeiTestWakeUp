@@ -1,0 +1,8 @@
+#ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+
+root $main;
+$main = [$call] $name;
+$call = 你好大智|国医科技|拣货装箱|浙一更新|讯飞语音|讯飞语点|叮咚叮咚;
+$name = 朱振华|国医科技|拣货装箱|浙一更新|张三|李四|张海洋;
